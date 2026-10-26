@@ -1,0 +1,181 @@
+{
+  "park-turlock": {
+    "url": "https://www.cityofturlock.org/_images/donnellyparkpavilion.jpg",
+    "size": [
+      750,
+      400
+    ]
+  },
+  "park-clovis": {
+    "url": "https://clovisbotanicalgarden.org/wp-content/uploads/2022/02/The-sensory-garden-.jpg",
+    "size": [
+      1024,
+      683
+    ]
+  },
+  "park-manteca": {
+    "url": "https://centralca.cdn-anvilcms.net/media/images/2018/10/10/images/WOODWARD1-8-3-12a.max-1200x675.jpg",
+    "size": [
+      640,
+      479
+    ]
+  },
+  "park-stockton": {
+    "url": "https://www.stocktonbeautiful.org/Portals/0/ThemePluginPro/uploads/2022/10/12/rose-garden-2.jpg",
+    "size": [
+      750,
+      563
+    ]
+  },
+  "park-fresno": {
+    "error": "HTTP Error 404: Not Found",
+    "url": "https://images.mindtrip.ai/attractions/1694/7835/5955/ba9b/7b76/572b/4fe3/42de"
+  },
+  "park-merced": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Rose_Garden_Fountain_2%2C_Applegate_Park_-_Merced%2C_California.jpg",
+    "size": [
+      1333,
+      1000
+    ]
+  },
+  "park-madera": {
+    "url": "https://imagescdn.homes.com/i2/MlhM3DHufDJjFLeknBqz07sy-GnxJwVJyRtN18LFTpg/117/madera-ca-4.jpg?p=1",
+    "size": [
+      650,
+      433
+    ]
+  },
+  "park-visalia": {
+    "url": "https://visalia.objects.liquidweb.services/photos/447-pond-Tall-Header.jpg",
+    "size": [
+      1400,
+      700
+    ]
+  },
+  "park-tulare": {
+    "url": "https://imagescdn.homes.com/i2/0HO1EW4jux2jcaqso7dkPRJ1DVXlQ_zBSIO2wKGntpE/116/del-lago-park-tulare-ca.jpg?p=1",
+    "size": [
+      1500,
+      1000
+    ]
+  },
+  "park-modesto": {
+    "url": "https://modestogov.com/ImageRepository/Document?documentID=3588",
+    "size": [
+      650,
+      423
+    ]
+  },
+  "park-bakersfield": {
+    "url": "https://photos.bringfido.com/attractions/2/9/1/42192/42192_146053071.jpg?density=2x&size=slide",
+    "size": [
+      1500,
+      1000
+    ]
+  },
+  "lib-clovis": {
+    "url": "https://www.fresnolibrary.org/branch/img/clo.png",
+    "size": [
+      300,
+      200
+    ]
+  },
+  "lib-tulare": {
+    "url": "https://imagescdn.homes.com/i2/sKRSNl1faY6Crpp3FjvM3hcoMU4rauLEqNl3PD4hyW4/117/northeast-tulare-tulare-ca-4.jpg?p=1",
+    "size": [
+      650,
+      433
+    ]
+  },
+  "lib-bakersfield": {
+    "url": "https://www.gpsmycity.com/img/gd_sight/49924.jpg",
+    "size": [
+      1024,
+      680
+    ]
+  },
+  "lib-merced": {
+    "url": "https://www.countyofmerced.com/ImageRepository/Document?documentID=31882",
+    "size": [
+      1500,
+      352
+    ]
+  },
+  "lib-fresno": {
+    "url": "https://www.dysonarchitects.net/images/bg/woodward2.jpg",
+    "size": [
+      1500,
+      1000
+    ]
+  },
+  "lib-visalia": {
+    "url": "https://static.wixstatic.com/media/63ea95_92f819c5ff53440399983304a5ac405d~mv2_d_5152_3864_s_4_2.jpg",
+    "size": [
+      1333,
+      1000
+    ]
+  },
+  "lib-madera": {
+    "url": "https://cdn-az.allevents.in/events3/banners/67be7a8d70c786658b7cf3c9ce4117e314d3421154694f8f93bae9f4f7e8ac8b-rimg-w400-h400-gmir.jpg?v=1583262851",
+    "size": [
+      400,
+      400
+    ]
+  },
+  "shaver-real": {
+    "url": "https://www.sce.com/sites/default/files/inline-images/4_3.jpg",
+    "size": [
+      307,
+      263
+    ]
+  },
+  "lib-modesto": {
+    "url": "https://www.stanislauslibrary.org/images/libraries/library_modesto.jpg",
+    "size": [
+      1024,
+      683
+    ]
+  },
+  "lib-turlock": {
+    "url": "https://www.stanislauslibrary.org/images/libraries/library_turlock.jpg",
+    "size": [
+      1024,
+      683
+    ]
+  },
+  "park-tracy": {
+    "url": "https://www.cityoftracy.org/files/assets/city/v/2/parks-and-rec/images/park-planning/lincoln-park-splash-pad-photo.jpg",
+    "size": [
+      1500,
+      844
+    ]
+  },
+  "lib-stockton": {
+    "url": "https://www.ssjcpl.org/var/site/storage/images/media/library-sites/ssjcpl/branches/galleries/chavez/chavez/207566-1-eng-US/chavez_wide_720.jpg",
+    "size": [
+      720,
+      405
+    ]
+  },
+  "lib-tracy": {
+    "url": "https://www.ssjcpl.org/var/site/storage/images/media/library-sites/ssjcpl/branches/galleries/tracy/tracy-exterior/208703-1-eng-US/tracy-exterior_wide_720.png",
+    "size": [
+      720,
+      405
+    ]
+  },
+  "lib-manteca": {
+    "url": "https://www.ssjcpl.org/var/site/storage/images/media/library-sites/ssjcpl/branches/galleries/manteca/manteca-exterior/208324-1-eng-US/manteca-exterior_wide_720.png",
+    "size": [
+      720,
+      405
+    ]
+  },
+  "bowling-real": {
+    "url": "https://s4.localdatacdn.com/ca/manteca/5970184/original/Cds33SuG2K.jpg",
+    "size": [
+      550,
+      413
+    ]
+  }
+}
