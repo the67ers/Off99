@@ -1,1 +1,87 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ddecfb"><meta name="description" content="Off 99 helps young people in the Central Valley discover real places, little adventures, and a little more belonging. Find a plan for your budget, crew, and time."><title>Off 99 · Take the local exit</title><link rel="stylesheet" href="styles.css?v=6"><link rel="stylesheet" href="quest-flow.css"><link rel="stylesheet" href="avatar-studio.css"><link rel="stylesheet" href="home.css"></head><body><a class="skip-link" href="#main">Skip to content</a><aside class="sidebar"><a class="brand" href="#home" aria-label="Off 99 home"><span class="brandmark">↗</span><span class="wordmark">off<span class="ninety">99</span></span><span class="branddot">™</span></a><div class="region">GOOD TIMES. JUST OFF THE HIGHWAY.</div><nav><a href="#explore" data-route="explore">◈ <span>Explore</span></a><a href="#generator" data-route="generator">✧ <span>Quest generator</span><b>NEW</b></a><a href="#map" data-route="map">⌖ <span>The Valley</span></a><a href="#friends" data-route="friends">☺ <span>Find your people</span></a><a href="#access" data-route="access">✳ <span>Access for everyone</span></a><a href="#groups" data-route="groups">♧ <span>Communities</span></a><div class="navlabel">YOUR ADVENTURE</div><a href="#saved" data-route="saved">⚑ <span>Saved quests</span><b id="save-count">0</b></a><a href="#profile" data-route="profile">◎ <span>My profile</span></a></nav><div class="side-bottom"><div class="mini-art">✳</div><strong>Less scrolling.<br>More stories.</strong><p>Your next adventure<br>is closer than you think.</p><span class="status-dot"></span> Private prototype</div><button class="account" id="account"><span class="avatar">M</span><span id="account-name">Your explorer profile</span><span>↗</span></button></aside><div class="shell"><header><div class="breadcrumb">A FIELD GUIDE TO GETTING OUT <span>✳</span></div><div class="header-actions"><a class="city-picker" href="#map" aria-label="Choose a city on the Valley map">⌖ <span id="city-label">Manteca</span><span>↗</span></a><button class="iconbtn" id="help" aria-label="Open menu">☰</button><button class="avatar" id="profile-button" aria-label="Open profile">M</button></div></header><main id="main"></main><footer><span>Off 99 / CENTRAL VALLEY</span><span>Go make a story. ↗</span></footer></div><dialog id="modal"><button id="close-modal" class="close" aria-label="Close dialog">×</button><div id="modal-content"></div></dialog><div id="toast" role="status" aria-live="polite"></div><script type="module" src="app.js?v=6"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#ddecfb" />
+    <meta
+      name="description"
+      content="Off 99 helps young people in the Central Valley discover real places, little adventures, and a little more belonging. Find a plan for your budget, crew, and time."
+    />
+    <title>Off 99 · Take the local exit</title>
+    <link rel="stylesheet" href="styles.css?v=10" />
+    <link rel="stylesheet" href="quest-flow.css" />
+    <link rel="stylesheet" href="avatar-studio.css" />
+    <link rel="stylesheet" href="home.css?v=10" />
+    <link rel="stylesheet" href="onboarding.css?v=10" />
+    <link rel="stylesheet" href="venue-explorer.css?v=10" />
+    <link rel="stylesheet" href="display.css?v=10" />
+    <link rel="stylesheet" href="home-title-fix.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <aside class="sidebar">
+      <a class="brand" href="#home" aria-label="Off 99 home"
+        ><span class="brandmark">↗</span
+        ><span class="wordmark">off<span class="ninety">99</span></span
+        ><span class="branddot">™</span></a
+      >
+      <div class="region">GOOD TIMES. JUST OFF THE HIGHWAY.</div>
+      <nav>
+        <a href="#explore" data-route="explore">◈ <span>Explore</span></a
+        ><a href="#generator" data-route="generator"
+          >✧ <span>Quest generator</span><b>NEW</b></a
+        ><a href="#map" data-route="map">⌖ <span>The Valley</span></a
+        ><a href="#friends" data-route="friends"
+          >☺ <span>Find your people</span></a
+        ><a href="#access" data-route="access"
+          >✳ <span>Access for everyone</span></a
+        ><a href="#groups" data-route="groups">♧ <span>Communities</span></a>
+        <div class="navlabel">YOUR ADVENTURE</div>
+        <a href="#saved" data-route="saved"
+          >⚑ <span>Saved quests</span><b id="save-count">0</b></a
+        ><a href="#profile" data-route="profile">◎ <span>My profile</span></a>
+      </nav>
+      <div class="side-bottom">
+        <div class="mini-art">✳</div>
+        <strong>Less scrolling.<br />More stories.</strong>
+        <p>Your next adventure<br />is closer than you think.</p>
+        <span class="status-dot"></span> Private prototype
+      </div>
+      <button class="account" id="account">
+        <span class="avatar">M</span
+        ><span id="account-name">Your explorer profile</span><span>↗</span>
+      </button>
+    </aside>
+    <div class="shell">
+      <header>
+        <div class="breadcrumb">
+          A FIELD GUIDE TO GETTING OUT <span>✳</span>
+        </div>
+        <div class="header-actions">
+          <a
+            class="city-picker"
+            href="#map"
+            aria-label="Choose a city on the Valley map"
+            >⌖ <span id="city-label">Manteca</span><span>↗</span></a
+          ><button class="iconbtn" id="help" aria-label="Open menu">☰</button
+          ><button class="avatar" id="profile-button" aria-label="Open profile">
+            M
+          </button>
+        </div>
+      </header>
+      <main id="main"></main>
+      <footer>
+        <span>Off 99 / CENTRAL VALLEY</span><span>Go make a story. ↗</span>
+      </footer>
+    </div>
+    <dialog id="modal">
+      <button id="close-modal" class="close" aria-label="Close dialog">
+        ×
+      </button>
+      <div id="modal-content"></div>
+    </dialog>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="app.js?v=10"></script>
+  </body>
+</html>

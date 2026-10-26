@@ -1,0 +1,25 @@
+/* Give both italic chrome digits their full glyph width. */
+#home-title .home-hero-ninety {
+  display: inline-block;
+  letter-spacing: 0;
+  padding-inline: .03em .18em;
+  margin-inline-end: -.12em;
+  white-space: nowrap;
+  position: relative;
+  z-index: 2;
+}
+
+#home-title > em {
+  column-gap: .08em;
+}
+
+#home-title > em::after {
+  content: none;
+  display: none;
+}
+
+/* Keep the decorative star behind the title lettering. */
+#home-title .home-title-star {
+  z-index: 0;
+  pointer-events: none;
+}
