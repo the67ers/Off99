@@ -8,3 +8,17 @@ body.is-home{background:#eff7fd;color:#234d69}body.is-home .sidebar,body.is-home
 .home-nav .home-brand{padding:0;margin:0;width:auto;border-radius:0;background:none}.home-nav .home-brand:hover{background:none}.home-nav .home-nav-enter{margin:0;width:auto;border-radius:30px;padding:13px 20px;background:linear-gradient(120deg,#faffff,#d8ebf9)}.home-nav .home-nav-enter:hover{background:linear-gradient(120deg,#fff,#cce3f5)}.home-nav .home-wordmark{display:inline-flex}.home-nav .home-wordmark>span{display:inline-block}.home-nav .home-nav-enter>span{display:inline}@media(max-width:750px){.home-nav .home-nav-enter{padding:11px 16px}}@media(max-width:560px){.home-nav .home-nav-enter{padding:10px 14px}}
 
 .home-nav .home-wordmark{font-family:'Bricolage Grotesque',sans-serif;font-size:39px;letter-spacing:-3px;font-weight:800;color:#3c7196;filter:drop-shadow(0 2px 0 #ffffff)}.home-nav .home-wordmark>span{font-size:61px;letter-spacing:-6px;background:linear-gradient(165deg,#ffffff 8%,#9dbcd0 27%,#3c6c8c 45%,#effaff 52%,#719bb6 72%,#dff4ff 94%);background-clip:text;-webkit-background-clip:text;color:transparent;transform:rotate(-10deg);text-shadow:0 1px 0 #5c89a5}.home-nav .home-wordmark sup{font-size:8px;color:#6b8ca5;transform:none;text-shadow:none}.home-hero h1 em{display:inline-flex;align-items:baseline;gap:.12em;font-style:normal;color:#3f7395;position:relative}.home-hero-off{font-family:'Fraunces',serif;font-style:italic;font-weight:650;letter-spacing:-.08em;color:#6d95ad}.home-hero-ninety{font-family:'Bricolage Grotesque',sans-serif;font-style:italic;font-weight:800;letter-spacing:-.12em;background:linear-gradient(165deg,#fff 8%,#9dbcd0 25%,#3c6c8c 45%,#f0fbff 52%,#6d96b1 75%,#dff4ff 94%);background-clip:text;-webkit-background-clip:text;color:transparent;filter:drop-shadow(0 2px 0 #6a93ad);transform:rotate(-7deg);display:inline-block}.home-hero h1 em:after{content:'↗';font-family:'Bricolage Grotesque',sans-serif;font-size:.27em;color:#6c97b1;position:absolute;right:-.62em;top:-.1em;transform:rotate(8deg)}
+
+/* Keep both chrome digits visible and the period close to the title. */
+#home-title .home-hero-ninety {
+  display: inline-block;
+  letter-spacing: 0;
+  padding-inline: .03em .18em;
+  margin-inline-end: -.12em;
+  white-space: nowrap;
+  position: relative;
+  z-index: 2;
+}
+#home-title > em { column-gap: .08em; }
+#home-title > em::after { content: none; display: none; }
+#home-title .home-title-star { z-index: 0; pointer-events: none; }
